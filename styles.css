@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+.date-time {
+    font-size: 16px;
+    color: #333;
+}
+
+.container {
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.container2 {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    margin-top: 70px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-left: 4px solid #007BFF;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.project1 {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.project1 h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.project-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.project-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.project h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.project h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.project .date {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    color: #333;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.social-links img {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+}
+
+/* Hakkımda bölümü stilleri */
+
+#about {
+    padding: 50px 0;
+}
+
+#about h2 {
+    text-align: center;
+    color: #343a40;
+    font-size: 28px;
+}
+
+#about .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#about img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
